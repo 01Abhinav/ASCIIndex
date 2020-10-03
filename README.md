@@ -85,9 +85,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
   </p>
 </p>
 
-[![HitCount](http://hits.dwyl.com/01Abhinav/ASCIIndex.svg)](http://hits.dwyl.com/01Abhinav/ASCIIndex)
-[![Contributors](https://img.shields.io/github/contributors/01Abhinav/ASCIIndex.svg?style=flat-square)](https://github.com/01Abhinav/ASCIIndex/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/01Abhinav/ASCIIndex.svg?style=flat-square)](https://github.com/01Abhinav/ASCIIndex/blob/master/LICENSE)
+<p align="center">
+  <a href="https://github.com/01Abhinav/ASCIIndex/graphs/contributors"><img src="https://img.shields.io/github/contributors/01Abhinav/ASCIIndex.svg?style=flat-square" /></a>
+  <a href="https://github.com/01Abhinav/ASCIIndex/blob/master/LICENSE"><img src="https://img.shields.io/github/license/01Abhinav/ASCIIndex.svg?style=flat-square" /></a>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 
