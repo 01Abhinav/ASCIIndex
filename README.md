@@ -86,8 +86,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 </p>
 
 <p align="center">
-  <a href="https://github.com/01Abhinav/ASCIIndex/graphs/contributors"><img src="https://img.shields.io/github/contributors/01Abhinav/ASCIIndex.svg?style=flat-square" /></a>
-  <a href="https://github.com/01Abhinav/ASCIIndex/blob/master/LICENSE"><img src="https://img.shields.io/github/license/01Abhinav/ASCIIndex.svg?style=flat-square" /></a>
+  <a href="https://github.com/01Abhinav/ASCIIndex/graphs/contributors"><img src="https://img.shields.io/github/contributors/01Abhinav/ASCIIndex.svg" /></a>
+  <a href="https://github.com/01Abhinav/ASCIIndex/blob/master/LICENSE"><img src="https://img.shields.io/github/license/01Abhinav/ASCIIndex.svg" /></a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
