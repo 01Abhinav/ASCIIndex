@@ -124,7 +124,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 This list can grow as development continues.
 
 - [ReactJs](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+- [styled-components](https://styled-components.com/)
 - [JSS](https://cssinjs.org/)
 
 <!-- GETTING STARTED -->
