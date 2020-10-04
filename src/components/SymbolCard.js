@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+import Colors from "../assets/colors.json";
+
 const Card = styled.div`
-  color: #ddd;
+  color: ${Colors.text};
   position: relative;
 
   &:after {
@@ -27,20 +29,20 @@ const Card = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 0.75rem;
-    background-color: #474b4f;
-    border-color: #86c23200;
+    background-color: ${Colors.secondary};
+    border-color: #00000000;
     transition: background-color 150ms ease-out, border-color 150ms ease-out;
     box-shadow: 0 1.5px 8px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   & .button:hover {
-    border-color: #86c232;
+    border-color: ${Colors.primary};
     border-width: 0.125rem;
     border-style: solid;
   }
 
   & .button:active {
-    background-color: #86c232;
+    background-color: ${Colors.primary};
   }
 
   & .symbol {
@@ -67,18 +69,18 @@ const Card = styled.div`
   }
 `;
 
-export default class SymbolCard extends React.Component {
-  render() {
-    return (
-      <Card>
-        <div className="container">
-          <div className="button">
-            <div className="symbol">{this.props.symbol}</div>
-            <div className="name">{this.props.name}</div>
-            {/* <div>{this.props.altcode}</div> */}
-          </div>
+const SymbolCard = (props) => {
+  return (
+    <Card>
+      <div className="container">
+        <div className="button">
+          <div className="symbol">{props.symbol}</div>
+          <div className="name">{props.name}</div>
+          {/* <div>{props.altcode}</div> */}
         </div>
-      </Card>
-    );
-  }
-}
+      </div>
+    </Card>
+  );
+};
+
+export default SymbolCard;
